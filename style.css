@@ -5,25 +5,40 @@
 }
 
 body {
+  padding: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   background-image: url("Images/Drum1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+h1 {
+  margin-bottom: 200px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(197, 155, 105);
+  font-family: "Rock Salt", cursive;
+}
 .container {
   display: flex;
 }
-.container > div {
+
+.card {
   margin: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid black;
   text-align: center;
   font-size: 30px;
+  border-radius: 10px;
+  background-color: rgb(197, 155, 105);
 }
 
-.card > button {
+.card button {
   width: 100px;
+  border-radius: 10px;
+  background-color: bisque;
 }
